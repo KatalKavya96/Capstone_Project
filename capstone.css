@@ -1,0 +1,37 @@
+
+*{
+    margin-left: 11px;
+}
+
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar{
+    display: flex;
+    
+}
+
+
+
+
+
+#row1{
+    display: flex;
+   
+}
+
+
+
+#row2,#row3{
+    display: flex;
+    
+
+}
+
+
+
+
