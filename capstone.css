@@ -242,3 +242,50 @@ body {
     cursor: pointer;
     text-align: center;
 }
+
+.intro {
+    width: 1344px;
+    text-align: center;
+    margin: 48px auto;
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -1%;
+}
+
+
+.projects {
+    width: 1344px;
+    text-align: center;
+    padding: 48px 0;
+    border-bottom: 1px solid white;
+}
+
+.projects h1 {
+    font-weight: 900;
+    font-size: 64px;
+    margin-bottom: 12px;
+}
+
+.projects p {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+
+.discover-button {
+    background-color: #928DD3;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+
+.projectimg {
+    width: 100%;
+    max-width: 1344px;
+    height: 756px;
+    border: 1px solid white;
+}
