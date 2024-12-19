@@ -105,26 +105,27 @@ body {
 }
 
 .segment {
-    width: 1344px;
-    padding: 32px 0;
+    width: 90vw;
+    padding: 2.5vh 0;
     display: flex;
     align-items: center;
-    gap: 32px;
+    gap: 1.67vw;
+    margin-bottom: 2vh;
 }
 
 .spacer {
-    width: 656px;
-    height: 154px;
+    width: 50vw;
+    height: 14.26vh;
 }
 
 .para {
-    width: 656px;
-    height: 154px;
+    width: 50vw;
+    height: 14.26vh;
     font-family: 'Archivo', sans-serif;
     font-weight: 500;
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: -0.5%;
+    font-size: 1.5vw;
+    line-height: 4vh;
+    letter-spacing: -0.03vw;
 }
 
 .landing-footer {
@@ -132,33 +133,33 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 150px;
+    height: 13.89vh;
 }
 
 .footer-para {
     font-family: 'Chivo', sans-serif;
     font-weight: 900;
-    font-size: 34px;
-    line-height: 40px;
+    font-size: 2vw;
+    line-height: 2.08vh;
     letter-spacing: -1%;
-    margin-bottom: 20px;
+    margin-bottom: 6vh;
 }
 
 .footer-form {
-    width: 600px;
+    width: 31.25vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 12px;
-    margin: 20px auto;
+    gap: 0.7vw;
+    margin: 1.5vh auto;
 }
 
 .email {
-    width: 490px;
-    border-radius: 8px;
-    padding: 6px 12px;
+    width: 25.52vw;
+    border-radius: 0.42vh;
+    padding: 0.31vh 0.63vw;
     background-color: black;
-    border: 1px solid white;
+    border: 0.05vh solid white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -170,16 +171,16 @@ body {
     outline: none;
     font-family: 'Archivo', sans-serif;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 1.5vw;
+    line-height: 1.25vh;
     background: none;
     color: white;
 }
 
 .submit {
-    width: 98px;
-    height: 40px;
-    border-radius: 8px;
+    width: 5.1vw;
+    height: 3.7vh;
+    border-radius: 0.42vh;
     background-color: #928DD3;
     display: flex;
     justify-content: center;
@@ -212,14 +213,14 @@ body {
 
 .footer {
     width: 100%;
-    padding: 16px 0;
+    padding: 0.83vh 0;
     background-color: black;
     color: white;
     text-align: center;
 }
 
 .footer-content {
-    width: 1344px;
+    width: 70vw;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -229,64 +230,80 @@ body {
 #pagelinks p {
     font-family: 'Chivo', sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.04vw;
     margin: 0;
 }
 
 .buttonlarge {
-    border: 1px solid white;
-    border-radius: 8px;
-    padding: 8px 16px;
+    border: 0.05vh solid white;
+    border-radius: 0.42vh;
+    padding: 0.42vh 0.83vw;
     font-family: 'Archivo', sans-serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.04vw;
     cursor: pointer;
     text-align: center;
 }
 
 .intro {
-    width: 1344px;
+    width: 70vw;
     text-align: center;
-    margin: 48px auto;
-    font-size: 48px;
-    line-height: 52px;
+    margin: 2.5vh auto;
+    font-size: 3vw;
+    line-height:6vh;
     letter-spacing: -1%;
 }
 
 
 .projects {
-    width: 1344px;
+    width: 82.5vw;
     text-align: center;
-    padding: 48px 0;
-    border-bottom: 1px solid white;
+    padding: 5vh 0 8vh 0;
+    border-bottom: 0.05vh solid white;
 }
 
 .projects h1 {
     font-weight: 900;
-    font-size: 64px;
-    margin-bottom: 12px;
+    font-size: 3.33vw;
+    margin-bottom: 0.8vh;
 }
 
 .projects p {
-    font-size: 24px;
-    line-height: 32px;
-    margin-bottom: 32px;
+    font-size: 1.25vw;
+    line-height: 2vh;
+    margin-bottom: 0.8vh;
 }
 
 .discover-button {
     background-color: #928DD3;
     font-family: 'Archivo', sans-serif;
     font-weight: 600;
-    padding: 8px 16px;
-    border-radius: 8px;
+    padding: 0.42vh 0.83vw;
+    border-radius: 0.42vh;
     border: none;
     cursor: pointer;
-    margin-bottom: 24px;
+    margin-bottom: 1.25vh;
 }
 
 .projectimg {
-    width: 100%;
-    max-width: 1344px;
-    height: 756px;
-    border: 1px solid white;
+    width: 86vw;
+    /* max-width: 1344px; */
+    height: 70vh;
+    /* border: 0.05vh solid white; */
+}
+
+.aligner{
+    height: 60vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#page{
+    display: flex;
+    flex-direction: column;
+    
 }
