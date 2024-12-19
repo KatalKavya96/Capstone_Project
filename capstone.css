@@ -1,5 +1,5 @@
 * {
-    margin-left: 10px;
+    margin-left: 0.9vw;
     padding: 0;
     box-sizing: border-box;
 }
@@ -11,18 +11,18 @@ body {
 }
 
 .navbar {
-    width: 1344px;
-    height: 72px;
+    width: 94vw;
+    height: 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 0;
-    border-bottom: 1px solid white;
+    padding: 0.6vh 0;
+    border-bottom: 0.1vh solid white;
 }
 
 .logo {
-    width: 139px;
-    height: 48px;
+    width: 7.25vw;
+    height: 4.44vh;
 }
 
 .titles {
