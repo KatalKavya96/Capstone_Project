@@ -1,132 +1,132 @@
 * {
-    /* margin-left: 0.9vw;  */
+    margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 body {
     background-color: black;
     color: white;
     font-family: 'Chivo', sans-serif;
-    
 }
 
 .navbar {
-    width: 94vw;
-    height: 10vh;
+    width: 100%;
+    height: 8vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.6vh 0;
+    padding: 0 2vw;
     border-bottom: 0.1vh solid white;
+    margin-bottom: 8vh;
 }
 
 .logo {
-    width: 7.25vw;
-    height: 4.44vh;
+    width: 8vw;
+    height: auto;
 }
 
 .titles {
     display: flex;
-    gap: 1.25vw;
+    gap: 1.5vw;
 }
 
 .titles a {
     font-weight: 400;
-    font-size: 1.47vw;
-    line-height: 1.67vh;
+    font-size: 1.5vw;
+    line-height: 2vh;
     letter-spacing: -0.01vw;
 }
 
 .hero {
-    width: 90vw;
+    width: 100%;
     text-align: center;
-    padding: 6.67vh 0;
-    
+    padding: 5vh 0;
+    margin-bottom: 6vh;
 }
 
 .title {
-    width: 90vw;
     font-weight: 900;
-    font-size: 6.25vw;
-    line-height: 12vh;
-    letter-spacing: -0.1vw;
-    margin-bottom: 10vh;
+    font-size: 6vw;
+    line-height: 10vh;
+    margin-bottom: 5vh;
 }
 
 .titleimg {
-    width: 90vw;
-    max-width: 1344px;
-    height: 672px;
-    border-radius: 56px;
-    border: 1px solid black;
+    width: 90%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 2vw;
+    border: 0.1vh solid black;
 }
 
 .grid {
-    width: 1344px;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 2vh;
 }
 
 .row {
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
-    gap: 1.67vh;
+    flex-wrap: wrap;
+    gap: 2vh;
 }
 
 .project {
-    width: 30%;
+    flex: 1 1 calc(30% - 2vh);
+    max-width: calc(30% - 2vh);
     display: flex;
     flex-direction: column;
-    gap: 0.3vh;
+    gap: 3vh;
 }
 
 .project img {
     width: 100%;
-    height: 279px;
-    border: 1px solid white;
-    border-radius: 8px;
+    height: auto;
+    border: 0.1vh solid white;
+    border-radius: 0.5vw;
 }
 
 .info h3 {
     font-family: 'Archivo', sans-serif;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 1.2vw;
+    line-height: 4vh;
 }
 
 .info p {
     font-family: 'Archivo', sans-serif;
     font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
+    font-size: 1vw;
+    line-height: 2vh;
     color: rgba(255, 255, 255, 0.6);
 }
 
 .segment {
-    width: 90vw;
-    padding: 2.5vh 0;
+    width: 100%;
+    padding: 2vh 5vw;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 1.67vw;
-    margin-bottom: 2vh;
+    gap: 2vw;
+    margin-bottom: 3vh;
 }
 
 .spacer {
-    width: 50vw;
-    height: 14.26vh;
+    flex: 1;
+    height: auto;
 }
 
 .para {
-    width: 50vw;
-    height: 14.26vh;
+    margin: 4vh 0;
+    flex: 1;
     font-family: 'Archivo', sans-serif;
     font-weight: 500;
     font-size: 1.5vw;
-    line-height: 4vh;
-    letter-spacing: -0.03vw;
+    line-height: 3vh;
 }
 
 .landing-footer {
@@ -134,36 +134,34 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 13.89vh;
-    margin: 15vh 0 15vh 0;
+    height: 15vh;
+    padding: 2vh 5vw;
 }
 
 .footer-para {
     font-family: 'Chivo', sans-serif;
     font-weight: 900;
     font-size: 2vw;
-    line-height: 2.08vh;
-    letter-spacing: -1%;
-    margin-bottom: 6vh;
+    line-height: 2.5vh;
+    margin-bottom: 3vh;
 }
 
 .footer-form {
-    width: 31.25vw;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 0.7vw;
-    margin: 1.5vh auto;
+    gap: 1vw;
+    margin: 2vh auto;
 }
 
 .email {
-    width: 25.52vw;
-    border-radius: 0.42vh;
-    padding: 0.31vh 0.63vw;
+    flex: 2;
+    border-radius: 0.5vh;
+    padding: 0.5vh 1vw;
     background-color: black;
-    border: 0.05vh solid white;
+    border: 0.1vh solid white;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -174,15 +172,14 @@ body {
     font-family: 'Archivo', sans-serif;
     font-weight: 500;
     font-size: 1.5vw;
-    line-height: 1.25vh;
     background: none;
     color: white;
 }
 
 .submit {
-    width: 5.1vw;
-    height: 3.7vh;
-    border-radius: 0.42vh;
+    flex: 1;
+    height: 4vh;
+    border-radius: 0.5vh;
     background-color: #928DD3;
     display: flex;
     justify-content: center;
@@ -200,31 +197,28 @@ body {
 }
 
 .socials {
-    width: 192px;
-    height: 48px;
+    width: 20vw;
     display: flex;
-    justify-content: center;
-    gap: 24px;
-    margin: 16px auto;
+    justify-content: space-evenly;
+    margin: 2vh auto;
 }
 
 .socials img {
-    width: 48px;
-    height: 48px;
+    width: 3vw;
+    height: auto;
 }
 
 .footer {
     width: 100%;
-    padding: 0.83vh 0;
+    padding: 1vh 0;
     background-color: black;
     color: white;
     text-align: center;
-    display: flex;
-    justify-content: center;
 }
 
 .footer-content {
-    width: 80vw;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -233,151 +227,117 @@ body {
 #pagelinks p {
     font-family: 'Chivo', sans-serif;
     font-weight: 400;
-    font-size: 1.04vw;
-    text-align: center;
+    font-size: 1.2vw;
 }
 
 .buttonlarge {
-    display: flex;
-    justify-content: center;
-    border: 0.05vh solid white;
-    border-radius: 0.42vh;
-    /* padding: 0.2vh 0.2vw; */
+    border: 0.1vh solid white;
+    border-radius: 0.5vh;
+    padding: 0.5vh 1vw;
     font-family: 'Archivo', sans-serif;
     font-weight: 600;
-    font-size: 1.04vw;
+    font-size: 1.2vw;
     cursor: pointer;
-    text-align: center;
-    margin: 0;
-    padding: 0;
 }
 
 .intro {
-    width: 70vw;
+    width: 90%;
     text-align: center;
-    margin: 2.5vh auto;
+    margin: 5vh auto;
     font-size: 3vw;
-    line-height:6vh;
-    letter-spacing: -1%;
+    line-height: 6vh;
 }
 
-
 .projects {
-    width: 82.5vw;
+    width: 90%;
     text-align: center;
-    padding: 5vh 0 8vh 0;
-    border-bottom: 0.05vh solid white;
+    padding: 5vh 0;
+    border-bottom: 0.1vh solid white;
 }
 
 .projects h1 {
     font-weight: 900;
-    font-size: 3.33vw;
-    margin-bottom: 0.8vh;
+    font-size: 3vw;
+    margin-bottom: 2vh;
 }
 
 .projects p {
-    font-size: 1.25vw;
-    line-height: 2vh;
-    margin-bottom: 0.8vh;
+    font-size: 1.5vw;
+    line-height: 2.5vh;
+    margin-bottom: 2vh;
 }
 
 .discover-button {
     background-color: #928DD3;
     font-family: 'Archivo', sans-serif;
     font-weight: 600;
-    padding: 0.6vh 0.83vw;
-    border-radius: 0.42vh;
+    padding: 0.8vh 1.5vw;
+    border-radius: 0.5vh;
     border: none;
     cursor: pointer;
-    margin-bottom: 1.25vh;
     margin-top: 2vh;
 }
 
 .projectimg {
-    width: 86vw;
-    /* max-width: 1344px; */
-    height: 70vh;
-    /* border: 0.05vh solid white; */
+    width: 100%;
+    max-width: 90%;
+    height: auto;
 }
 
-.aligner{
-    
-    width:100%;
+.aligner {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0;
 }
 
-#page{
-    display: flex;
-    flex-direction: column;
-    
-}
-
-@media (max-width:768px){
-    .grid{
-        display: flex;
+@media (max-width: 768px) {
+    .grid {
         flex-direction: column;
     }
 
     .row {
         flex-direction: column;
-        gap: 2vh;
+    }
+
+    .project {
+        width: 100%;
     }
 }
 
-@media (min-width:769px) and (max-width:1200px){
-    .grid{
-        display: flex;
-        flex-direction: column;
-        gap: 2vh;
-    }
-
-    .row{
+@media (min-width: 769px) and (max-width: 1200px) {
+    .grid {
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
+    }
+
+    .row {
+        flex-direction: row;
+        flex-wrap: wrap;
         gap: 2vh;
     }
 
-    .project{
-        width: 45%;
+    .project {
+        width: 48%;
     }
 }
 
-@media (min-width:1201px){
-    .grid{
-        display: flex;
-        flex-direction: column;
-        gap: 2vh;
+@media (min-width: 1201px) {
+    .grid {
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
-    .row{
+    .row {
         flex-direction: row;
         flex-wrap: nowrap;
+        justify-content: space-between;
         gap: 2vh;
     }
 
-    .project{
+    .project {
         width: 30%;
     }
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#navaligner{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.project:hover{
-    border-color: pink;
-}
