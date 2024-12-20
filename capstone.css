@@ -12,13 +12,14 @@ body {
 
 .navbar {
     width: 100%;
-    height: 8vh;
+    height: 12vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 2vw;
     border-bottom: 0.1vh solid white;
     margin-bottom: 8vh;
+    position: absolute;
 }
 
 .logo {
@@ -341,3 +342,25 @@ body {
     }
 }
 
+.project img:hover{
+    border-width: 1px;
+    scale: 1.05;
+    border-color:purple;
+}
+
+.socials img{
+    cursor: pointer;
+}
+
+.para:hover,.intro:hover{
+
+    color: rgb(204, 196, 196);
+
+}
+
+
+.navbar a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
